@@ -46,10 +46,10 @@ At a significance level of 0.05, we can reject the null hypothesis since the p-v
 
 
 ## Study Design: MechaCar vs. Competition
-Another statistical study that can be performed to determine MechaCar's standing against its competition is a linear regression on city and highway fuel efficiency. Gasoline is expensive nowadays, and it is an important feature that many consumers look at when purchasing a new car. The metrics that can be included in this analysis are:
+We could to study on MechaCar's standing against its competition is a linear regression on city and highway fuel efficiency. Gas is getting pricey, and it is an important feature that many consumers look at when purchasing a new car. The metrics that can be included in this analysis are:
+
 * City and highway fuel efficiency: dependent variable
-* Horse power: independent variable
-* Vehicle weight: independent variable
-* AWD capabilities: independent variable
 * MPG: independent variable
-In addition to the MPG, AWD, and vehicle weight data that we already have, we would have to collect fuel efficiency and horse power data for the sample data set at hand.
+* Horse power: independent variable
+* AWD capabilities: independent variable
+* Vehicle weight: independent variable
