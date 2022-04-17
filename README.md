@@ -8,6 +8,7 @@ The goal of the project is to analyze metrics that can affect the manufacturing 
 ![Linear Regression](https://github.com/vijaycse/MechaCar_Statistical_Analysis/blob/master/resources/linear_regression_mpg.png)
 
 3 Key Takeaways:
+
 * Variance of a non-random variable is usually 0. Given this fact, the intercept, vehicle_length, and ground_clearance coeeficients can be said to provide a non-random amount of variance to the mpg values. 
 * At a significance level of 0.05, we are able to reject the null hypothesis because of the extremely small p-value. The null hypothesis of a linear regression states that the slope (β1) is equal to 0. However, if we reject the null hypthesis, we're stating that alternative (β1 ≠ 0) is true. Thus, proving that the slope is not 0.
 * Multiple R-squared increases as more variables are passed through the regression. However, adjusted R-squared controls against this increase, and adds penalties for the number of predictors in the model, thus making it a more accurate predictor of how effective the linear model is. An adjusted R-square of 0.6825 concludes that this linear model predicts the mpg of MechaCar prototypes relatively well.
@@ -33,6 +34,7 @@ At a significance level of 0.05, we fail to reject the null hypothesis since the
 <p align="center">
 <img src="https://github.com/vijaycse/MechaCar_Statistical_Analysis/blob/master/resources/T-Tests%20on%20Suspension%20Coils.png">
 </p>
+
 #### Lot 1
 At a significance level of 0.05, we fail to reject the null hypothesis since the p-value equals 1. An interesting correlation between p-value and confidence intervals is that as the p-values get larger, the confidence interval becomes smaller, implying more precision in predicting the true population mean.
 
